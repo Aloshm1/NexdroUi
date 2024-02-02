@@ -2,8 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
 }
 
 a {
@@ -13,4 +13,57 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.css-enyiw4-MuiPaper-root-MuiAppBar-root{
+
+  box-shadow: none!important;
+}
+@font-face {
+  font-family: roboto-regular;
+  src: url("../public/fonts/Roboto-Regular.ttf");
+  font-display: swap; 
+}
+@font-face {
+  font-family: readexpro-regular;
+  src: url("../public/fonts/ReadexPro-Regular.ttf");
+  font-display: swap; 
+}
+@font-face {
+  font-family: inter-regular;
+  src: url("../public/fonts/Inter-Regular.ttf");
+  font-display: swap; 
+}
+@font-face {
+  font-family: readexpro-bold;
+  src: url("../public/fonts/ReadexPro-Bold.ttf");
+  font-display: swap; 
+}
+
+@media screen and (min-width:900px) {
+  
+  .css-19r6kue-MuiContainer-root {
+      padding-left: 96px;
+      padding-right: 96px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+  }
+  
+}
+@media screen and (max-width:599px) {
+  .css-19r6kue-MuiContainer-root {
+    
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+  }
+
+}
+@media screen and (max-width:372px) {
+  .css-19r6kue-MuiContainer-root {
+  padding-left: 5px;
+  padding-right: 5px;
+  }
+
 }
